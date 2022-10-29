@@ -1,0 +1,23 @@
+.formInput{
+    width: 70%;
+    /* height:500px; */
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid gray 1px;
+    height: 20px;
+    padding: 0 5px;
+}
+.formInput:last-child{
+    padding-bottom: 10px;
+}
+
+.description{
+    margin-top: 10px;
+}
