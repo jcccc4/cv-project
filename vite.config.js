@@ -5,7 +5,7 @@ export default defineConfig({
   base: '/cv-project/', // set this to your repository name
   plugins: [react()],
   build: {
-    outDir: 'docs', // set this to 'docs' for GitHub Pages
+    outDir: 'dist', // set this to 'docs' for GitHub Pages
     assetsDir: '.', // set this to '.' to inline assets in the HTML
     rollupOptions: {
       input: {
